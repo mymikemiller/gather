@@ -1,0 +1,34 @@
+{
+  "canisters": {
+    "hello": {
+      "main": "src/hello/main.mo",
+      "type": "motoko"
+    },
+    "hello_assets": {
+      "dependencies": [
+        "hello"
+      ],
+      "frontend": {
+        "entrypoint": "src/hello_assets/src/index.html"
+      },
+      "source": [
+        "dist/",
+        "src/hello_assets/assets"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
