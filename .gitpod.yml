@@ -5,11 +5,11 @@ tasks:
   - before: echo "export PATH=/home/gitpod/bin/:$PATH" > ~/.bashrc && source ~/.bashrc
     init: |
       dfx start --background
-      dfx deploy hello
+      dfx deploy gather
       npm install
       npm start
 
-  - init: gp open src/hello_assets/src/App.jsx
+  - init: gp open src/frontend/src/App.jsx
     command: |
       zsh
       exit

@@ -1,7 +1,7 @@
 {
-  "name": "hello_assets",
+  "name": "gather",
   "version": "0.1.1",
-  "description": "Internet Computer starter application",
+  "description": "Create and RSVP to Gatherings",
   "keywords": [
     "Internet Computer",
     "Motoko",
@@ -9,13 +9,13 @@
     "Canister"
   ],
   "scripts": {
-    "build": "parcel build src/hello_assets/src/index.html",
+    "build": "parcel build src/frontend/src/index.html",
     "prebuild": "npm run generate",
     "start": "npm run dev",
-    "dev": "parcel src/hello_assets/src/index.html",
-    "predev": "dfx start --background --clean; dfx deploy hello; node setupEnv.js; npm run generate;",
+    "dev": "parcel src/frontend/src/index.html",
+    "predev": "dfx start --background --clean; dfx deploy gather; node setupEnv.js; npm run generate;",
     "postdev": "dfx stop",
-    "generate": "dfx generate hello"
+    "generate": "dfx generate gather"
   },
   "devDependencies": {
     "@dfinity/agent": "0.12.0",

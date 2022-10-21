@@ -1,19 +1,19 @@
 {
   "canisters": {
-    "hello": {
-      "main": "src/hello/main.mo",
+    "gather": {
+      "main": "src/gather/main.mo",
       "type": "motoko"
     },
-    "hello_assets": {
+    "frontend": {
       "dependencies": [
-        "hello"
+        "gather"
       ],
       "frontend": {
-        "entrypoint": "src/hello_assets/src/index.html"
+        "entrypoint": "src/frontend/src/index.html"
       },
       "source": [
         "dist/",
-        "src/hello_assets/assets"
+        "src/frontend/assets"
       ],
       "type": "assets"
     }

@@ -1,4 +1,4 @@
-# hello template
+# gather
 
 To get started, find and replace "hello" with the name of your project in the files and filenames. Then, run `npm install`, and `npm run dev` to run your app locally.
 
@@ -19,7 +19,7 @@ To learn more before you start working with hello, see the following documentati
 If you want to start working on your project right away, you might want to try the following commands:
 
 ```bash
-cd hello/
+cd gather/
 dfx help
 dfx config --help
 ```
@@ -41,10 +41,10 @@ Alternately, step by step, you can run
 
 ```bash
 dfx start --background --clean
-dfx deploy hello
+dfx deploy gather
 node setupEnv.js
 npm run generate
-npx parcel src/hello_assets/src/index.html
+npx parcel src/frontend/src/index.html
 ```
 
 If you change the names of canisters, be sure to update those new path names in `package.json` and `dfx.json`.

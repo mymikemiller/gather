@@ -40,3 +40,4 @@ typings/
 # Dfinity
 .dfx
 src/declarations/
+dist/
