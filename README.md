@@ -2,7 +2,7 @@
 
 To get started, find and replace "hello" with the name of your project in the files and filenames. Then, run `npm install`, and `npm run dev` to run your app locally.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/krpeacock/dfx-template-react)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/mymikemiller/gather)
 
 Welcome to your new hello project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
 
