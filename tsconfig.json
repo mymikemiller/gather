@@ -5,7 +5,7 @@
   ],
   "compilerOptions": {
     "target": "es5",
-    "tsx": "react",
+    "jsx": "react",
     "allowSyntheticDefaultImports": true
   },
   "exclude": [

@@ -4,6 +4,7 @@ image:
 tasks:
   - before: echo "export PATH=/home/gitpod/bin/:$PATH" > ~/.bashrc && source ~/.bashrc
     init: |
+      dfx upgrade
       dfx start --background
       dfx deploy gather
       npm install
