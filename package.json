@@ -18,12 +18,15 @@
     "generate": "dfx generate gather"
   },
   "devDependencies": {
-    "@dfinity/agent": "0.12.0",
-    "@dfinity/candid": "0.12.0",
-    "@dfinity/principal": "0.12.0",
+    "@dfinity/agent": "0.14.0",
+    "@dfinity/candid": "0.14.0",
     "buffer": "^6.0.3",
-    "parcel": "^2.4.0",
-    "process": "^0.11.10"
+    "parcel": "^2.7.0",
+    "process": "^0.11.10",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "typescript": "^4.8.4"
   },
   "browserslist": [
     "last 2 chrome version",
@@ -32,7 +35,11 @@
     "last 2 edge version"
   ],
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-router-dom": "^6.4.2",
+    "react-hook-form": "^7.38.0",
+    "styled-components": "^5.3.6"
   }
 }

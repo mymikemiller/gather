@@ -9,7 +9,7 @@ tasks:
       npm install
       npm start
 
-  - init: gp open src/frontend/src/App.jsx
+  - init: gp open src/frontend/src/App.tsx
     command: |
       zsh
       exit
