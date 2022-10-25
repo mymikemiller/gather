@@ -2,6 +2,7 @@ import * as React from "react";
 import styled from "styled-components";
 import Home from "./components/Home";
 import RsvpForm from "./components/RsvpForm";
+import CreateGathering from "./components/CreateGathering";
 import { _SERVICE } from "../../declarations/gather/gather.did";
 import toast, { Toaster } from "react-hot-toast";
 import ErrorBoundary from "./components/ErrorBoundary";
@@ -69,7 +70,7 @@ const App = () => {
               <Route path="gathering" element={<Outlet />}>
                 <Route path=":gatheringId" element={<RsvpForm />} />
                 {/* <Route path=":gatheringId/edit" element={<EditGathering />} /> */}
-                {/* <Route path="new" element={<NewGatheringForm />} /> */}
+                <Route path="new" element={<CreateGathering />} />
               </Route>
               <Route path="/loading" element={<Loading />} />
             </Routes>
